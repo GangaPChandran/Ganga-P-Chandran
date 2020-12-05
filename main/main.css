@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+root{
+    --primary:#6EE7B7;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+#nav {
+    padding: 1rem;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0.5rem;
+    color:var(--primary);
+    
+}
+#nav ul {
+    text-align: right;
+}
+.container{
+    position: relative;
+    text-align: center;
+
+}
+#name{
+    text-decoration: none;
+    font-weight: bolder;
+    color:#F9FAFB;
+    font-size: larger;
+    position: absolute;
+    top:8px;
+    left:5%;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.my_image{
+    border-radius:50%;
+    position: absolute;
+    bottom:-217px;
+    left: 560px;
+    text-align: center;
+}
+.pic{
+border-radius: 2rem;
+max-width: 600px;
+height: auto;
+margin: auto;
+display: block;
+}
+footer{
+    padding:2rem 1rem;
+    background-color:#34D399;
+    border-radius: 50%;
+}
+.contacts li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+.contacts ul {
+    text-align: center;
+    text-decoration: none;
+} 
+.home{
+    position: absolute;
+    top: 8px;
+    right:220px;
+}  
+.blogs{
+    position: absolute;
+    top: 8px;
+    right:120px;
+}
+.projects{
+    position: absolute;
+    top: 8px;
+    right:20px;
+}
+.contact-link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #A7F3D0;
+}
