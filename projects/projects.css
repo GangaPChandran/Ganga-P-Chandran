@@ -11,6 +11,9 @@ body{
     margin: auto;
     height: 100%;
 }
+header{
+    background-color:#ECFDF5;
+}
 * {
     box-sizing: border-box;
 }

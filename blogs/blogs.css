@@ -55,6 +55,9 @@ body{
     bottom:430px;
     left:560px;
 }
+header{
+    background-color:#ECFDF5;
+}
 footer{
     padding: 1vh 1vw ;
     background-color:#34D399;
