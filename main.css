@@ -48,8 +48,8 @@ body{
 .my_image{
     border-radius:50%;
     position: absolute;
-    bottom:-217px;
-    left: 560px;
+    bottom:15px;
+    left: 100px;
     text-align: center;
 }
 .pic{
@@ -60,9 +60,12 @@ margin: auto;
 display: block;
 }
 footer{
-    padding:2rem 1rem;
+    position: relative;
     background-color:#34D399;
     border-radius: 50%;
+    width: 100%;
+    padding: 0.5rem;
+    bottom: 0;
 }
 .contacts li{
     display: inline-block;

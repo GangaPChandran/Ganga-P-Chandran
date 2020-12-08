@@ -52,16 +52,19 @@ body{
 .my_image{
     border-radius:50%;
     position: absolute;
-    bottom:430px;
-    left:560px;
+    bottom:10px;
+    left: 100px;
+    text-align: center;
 }
 header{
     background-color:#ECFDF5;
 }
 footer{
-    padding: 1vh 1vw ;
+    position: fixed;
     background-color:#34D399;
     border-radius: 50%;
+    width: 40%;
+    bottom: 0;
 }
 .contacts li{
     display: inline-block;

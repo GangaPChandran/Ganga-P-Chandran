@@ -54,19 +54,19 @@ header{
     color: #34D399;
 }
 .my_image{
-    border-radius:50%;
+    border-radius:100%;
     position: absolute;
-    bottom:130px;
-    left: 570px;
+    bottom:10px;
+    left: 100px;
     text-align: center;
 }
 
 footer{
-    padding: 1rem 1rem ;
+    position: fixed;
     background-color:#34D399;
     border-radius: 50%;
-    bottom:5px;
-    
+    width: 40%;
+    bottom: 0;
 }
 .contacts li{
     display: inline-block;
