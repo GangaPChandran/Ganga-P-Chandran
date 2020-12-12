@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-root{
-    --primary:#6EE7B7;
-}
-body{
-    font-family: 'Open Sans', sans-serif;
-    max-width: 600px;
+main {
+    box-sizing: border-box;
+    width: 700px;
     margin: auto;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;  
 }
 
-* {
-    box-sizing: border-box;
-}
 #nav {
     padding: 1rem;
+}
+
+#nav .active {
+    font-weight: bolder;
+    position: absolute;
+    top: 8px;
+    right: 220px;
 }
 
 #nav li {
     display: inline-block;
     padding: 0.5rem;
-    color:var(--primary);
     
 }
 #nav ul {
@@ -29,42 +30,38 @@ body{
 .container{
     position: relative;
     text-align: center;
-
 }
 #name{
     text-decoration: none;
     font-weight: bolder;
-    color:#F9FAFB;
-    font-size: larger;
+    color:black;
+    font-size:1rem;
     position: absolute;
-    top:8px;
-    left:5%;
+    left:0;
+    top:-30px;
 }
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: white;
+    color: black;
 }
-.my_image{
-    border-radius:50%;
-    position: absolute;
-    bottom:15px;
-    left: 100px;
-    text-align: center;
+.newlink{
+    text-decoration: none;
+    color: #34D399;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .pic{
-border-radius: 2rem;
-max-width: 600px;
-height: auto;
+width: 450px;
+height: 450px;
 margin: auto;
-display: block;
+
 }
 footer{
     position: relative;
     background-color:#34D399;
-    border-radius: 50%;
     width: 100%;
-    padding: 0.5rem;
+    padding: 4rem;
     bottom: 0;
 }
 .contacts li{
@@ -94,4 +91,36 @@ footer{
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: #A7F3D0;
+}
+
+.fa {  
+    padding:20px;  
+  text-align: center;  
+  margin: 5px 1px;  
+    font-size: 30px;  
+    width: 50px; 
+    border-radius:100%; 
+   
+  }  
+  .fa-linkedin {    
+        background: #007bb5;  
+        color: white;  
+      
+  } 
+  .fa-linkedin:hover {
+    background-color: #04354b;
+}
+  .fa-github {
+    background: black;  
+    color: white;  
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+.fa-google {
+    background: #dd4b39;  
+  color: white;  
+}
+.fa-google:hover {
+    background-color: #c00b48;
 }

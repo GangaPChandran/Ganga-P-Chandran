@@ -1,21 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-root{
-    --primary:#047857;
-}
 body{
-    font-family: 'Open Sans', sans-serif;
-    color: #047857;
-    max-width: 600px;
+    box-sizing: border-box;
+    width: 700px;
     margin: auto;
     height: 100%;
-}
-header{
-    background-color:#ECFDF5;
-}
-* {
-    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 #nav {
@@ -26,48 +17,59 @@ header{
     position: absolute;
     top: 8px;
 }
+
 #nav li {
     display: inline-block;
     padding: 0.5rem;
-    color:var(--primary);
 }
+
 #nav ul {
     text-align: right;
 }
 .container{
     position: relative;
     text-align: center;
-
 }
 #name{
     text-decoration: none;
     font-weight: bolder;
-    color: #0c7054;
-    font-size: larger;
+    color: black;
+    font-size: 1rem;
     position: absolute;
-    top:8px;
-    left:5%;
+    left:0;
+    top:-30px;
 }
 .link{
-    text-decoration: none;
+    text-decoration:none;
     padding: 0.5rem 1rem;
-    color: #34D399;
+    color: black;   
 }
-.my_image{
-    border-radius:100%;
-    position: absolute;
-    bottom:10px;
-    left: 100px;
-    text-align: center;
+.newlink{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#34D399;
 }
-
+.info{
+    padding: 1rem; font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.btn-link{
+    
+    border: solid #064E3B ;
+    text-decoration:none;
+    padding: 0.25rem ;
+    color:#064E3B ;   
+    margin: 0.25rem;
+}
 footer{
-    position: fixed;
-    background-color:#34D399;
-    border-radius: 50%;
-    width: 40%;
+    position: relative;
+    width:700px;
+    padding: 3rem;
     bottom: 0;
 }
+
 .contacts li{
     display: inline-block;
     padding: 0.5rem;
@@ -96,7 +98,34 @@ footer{
     padding: 0.5rem 1rem;
     color:#A7F3D0;
 }
-ul.task{
-    
-        list-style-type: none;
+.fa {  
+    padding:20px;  
+  text-align: center;  
+  margin: 5px 1px;  
+    font-size: 30px;  
+    width: 50px; 
+    border-radius:100%; 
+   
+  }  
+  .fa-linkedin {    
+        background: #007bb5;  
+        color: white;  
+      
+  } 
+  .fa-linkedin:hover {
+    background-color: #04354b;
+}
+  .fa-github {
+    background: black;  
+    color: white;  
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+.fa-google {
+    background: #dd4b39;  
+  color: white;  
+}
+.fa-google:hover {
+    background-color: #c00b48;
 }
