@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-body{
+main{
     box-sizing: border-box;
     width: 700px;
     margin: auto;
@@ -49,6 +49,10 @@ body{
     font-size: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#34D399;
+    padding: 0;
+}
+.newlink:hover{
+    color: #064E3B;
 }
 .info{
     padding: 1rem; font-size: 1rem;
@@ -56,28 +60,28 @@ body{
     
 }
 .btn-link{
-    
-    border: solid #064E3B ;
+    border: none ;
+    border-radius: 5%;
     text-decoration:none;
     padding: 0.25rem ;
-    color:#064E3B ;   
+    background-color: #10B981 ;   
     margin: 0.25rem;
+    color:white;
+
+}
+.btn-link:hover{
+    opacity: 60%;
 }
 footer{
     position: relative;
-    width:700px;
+    max-width:100%;
     padding: 3rem;
     bottom: 0;
+    background-color:#34D399;
+    text-align:center;
 }
 
-.contacts li{
-    display: inline-block;
-    padding: 0.5rem;
-}
-.contacts ul {
-    text-align: center;
-    text-decoration: none;
-}  
+
 .home{
     position: absolute;
     top: 8px;

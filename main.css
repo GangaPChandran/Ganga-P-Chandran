@@ -8,10 +8,6 @@ main {
     font-family: 'Open Sans', sans-serif;  
 }
 
-#nav {
-    padding: 1rem;
-}
-
 #nav .active {
     font-weight: bolder;
     position: absolute;
@@ -45,33 +41,35 @@ main {
     padding: 0.5rem 1rem;
     color: black;
 }
+#tech{
+    text-decoration: none;
+    color: #34D399;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 .newlink{
     text-decoration: none;
     color: #34D399;
     font-size: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+.newlink:hover{
+    color: #064E3B;
+}
 .pic{
 width: 450px;
 height: 450px;
 margin: auto;
-
+padding: 1rem;
 }
 footer{
     position: relative;
     background-color:#34D399;
-    width: 100%;
+    max-width: 100%;
     padding: 4rem;
     bottom: 0;
-}
-.contacts li{
-    display: inline-block;
-    padding: 0.5rem;
-}
-.contacts ul {
     text-align: center;
-    text-decoration: none;
-} 
+}
 .home{
     position: absolute;
     top: 8px;
