@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-main{
-    width: 700px;
-    margin: auto;
+body{
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box; 
+    margin: auto;  
+    padding: 0px 400px 0px 400px;
+}
+main{
+    
+    width: 700px;
+   font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;    
 }
 
 #nav {
@@ -55,14 +58,13 @@ main{
     padding: 1rem; font-size: 1rem;
     font-family:Georgia, 'Times New Roman', Times, serif;    
 }
-
 footer{
     position: absolute;
     background-color:#34D399;
-    width: 100%;
-    padding: 4rem;
-    bottom: 0;
-    text-align:center;
+    bottom: 0vh;
+    width: 700px;
+    padding: 0.5rem;
+    text-align: center;
 }
 .home{
     position: absolute;

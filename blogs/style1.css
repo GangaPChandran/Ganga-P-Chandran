@@ -56,10 +56,10 @@ main{
 footer{
     position: relative;
     background-color:#34D399;
-    max-width: 100%;
-    padding: 4rem;
-    bottom: 0;
+    padding: 0.5rem;
     text-align: center;
+    left:400px;
+    width: 700px;
 }
 .home{
     position: absolute;

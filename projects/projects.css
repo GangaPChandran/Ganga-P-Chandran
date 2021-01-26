@@ -74,9 +74,9 @@ main{
 }
 footer{
     position: relative;
-    max-width:100%;
-    padding: 3rem;
-    bottom: 0;
+    width: 700px;;
+    padding: 0.5rem;
+    left:400px;
     background-color:#34D399;
     text-align:center;
 }
